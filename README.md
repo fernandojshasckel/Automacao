@@ -8,6 +8,17 @@ pip install webdriver_manager
 navegador.find_element('xpath', 'fullname')
 - Para encontrar elementos no navegador preciso de dois parametros o primeiro sempre vai ser o xpath e o segundo vai ser o elemento
 
+# Para instalar canvas
+pip install canvas
+
+# Para instalar unicode
+pip install unicode
+
+# Para instalar pandas
+pip install pandas
+
+
+
 # Manipulando elementos
 
 .click() - Clicar no elemento
