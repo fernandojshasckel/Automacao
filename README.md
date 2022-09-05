@@ -17,12 +17,15 @@ pip install unicode
 # Para instalar pandas
 pip install pandas
 
+# Objetos
+Os objetos são os meus atributos, no caso desse projeto é o nome, sobrenome dentre outros campos que precisam ser preenchidos
+para fazer o cadastro do usuario
 
+# POs
+Utilizo elas de 2 formas tenho as POs filhas e as POs pais
 
-# Manipulando elementos
+- Filhas:
+    Tenho as minhas funções para cada objeto no caso desse projeto usei apenas para fazer as funções de set
 
-.click() - Clicar no elemento
-nome = navegador.find_element('xpath', '//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/div[1]/div/div[1]/div/input').click()
-
-.send_keys() - Funciona como um set
-nome = navegador.find_element('xpath', '//*[@id="section-10356508"]/section/div[2]/div/div[2]/form/div[1]/div/div[1]/div/input').send_keys()
+- Pais:
+    Nas POs pais vou ter as funções que chamam as funções das POs filhas no caso do projeto criei a função cadastro de usuario que chama os set's que estão na PO filha e faz a passagem dos parametros.
